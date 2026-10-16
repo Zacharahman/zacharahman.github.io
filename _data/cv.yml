@@ -1,189 +1,170 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Zach Abdulrahman
+  label: Applied Mathematician
+  email: zja239@nyu.edu
+  location: New York, NY
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: >-
+    Applied mathematician working at the interface of optimization, numerical
+    analysis, and dynamical systems, with applications to computational
+    neuroscience and scientific machine learning.
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
     - network: GitHub
-      username: example
-    - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+      username: Zacharahman
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+      - institution: New York University, Courant Institute of Mathematical Sciences
+        location: New York, NY
+        url: https://cims.nyu.edu/
+        area: Mathematics, Applied Mathematics Thesis Track
+        studyType: M.S.
+        start_date: 2025
+        end_date: 2027
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Thesis: Phenomenological Models of PP1/PP2A Regulation in LTP Formation: A Dynamical Systems Analysis (working title)."
+          - "Advisor: David McLaughlin."
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+      - institution: University of South Carolina
+        location: Columbia, SC
+        url: https://sc.edu/
+        area: Computer Science and Mathematics
+        studyType: B.S.
+        start_date: 2021
+        end_date: 2025
         highlights:
-          - Description 1.
-          - Description 2.
+          - Minor in Data Science.
+          - Capstone Scholar.
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: Schaffer Lab, Icahn School of Medicine at Mount Sinai
+        position: Visiting Research Scientist
+        location: New York, NY
+        start_date: 2026-05-01
+        end_date: present
+        summary: Gradient clipping, transfer, and task-feature learning in recurrent networks.
         highlights:
-          - Relativity
-          - Description 2.
+          - Studying how gradient clipping shapes nonconvex RNN training dynamics, with a focus on transfer and task-feature learning.
+          - Characterizing how clipping thresholds and model parameters govern learned solutions and training complexity, toward understanding altered learning in neurological and psychiatric disorders.
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: Courant Institute of Mathematical Sciences, New York University
+        position: Graduate Researcher, M.S. Thesis
+        location: New York, NY
+        start_date: 2025-09-01
+        end_date: present
+        summary: Dynamical systems models of PP1/PP2A regulation in LTP formation.
         highlights:
-          - Description 1.
-          - Description 2.
+          - Developing phenomenological dynamical-systems models of PP1/PP2A regulation of CaMKII-dependent LTP formation; manuscript in preparation.
+          - Performing numerical bifurcation analysis (continuation, Jacobian spectral analysis) in Python and TensorFlow across kinase, phosphatase, and calcium parameters.
+          - Identified tristable regimes set by T286/T305 phosphorylation, and phosphatase thresholds governing calcium-driven LTP/LTD switching.
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+      - company: Courant Institute of Mathematical Sciences, New York University
+        position: Teaching Assistant
+        location: New York, NY
+        start_date: 2025-09-01
+        end_date: present
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - Lead recitations, hold office hours, and develop problem sets and review materials for Calculus I, Calculus II, and Linear Algebra.
 
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+      - company: Department of Mathematics, University of South Carolina
+        position: Mathematics Research Assistant
+        location: Columbia, SC
+        start_date: 2024-05-01
+        end_date: 2025-05-01
+        summary: "Coarse-grained event tree analysis of GLIF neuronal networks (Advisor: Dr. Yi Sun)."
+        highlights:
+          - Built a Python event tree analysis (ETA) framework for GLIF networks to quantify network dynamics and input discriminability.
+          - Used conditional probability distributions over event chains to measure sensitivity to small input perturbations.
+          - Showed that synaptic conductance and Gaussian noise critically shape excitability thresholds.
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+      - company: Department of Mathematics, University of South Carolina
+        position: Undergraduate Teaching Assistant
+        location: Columbia, SC
+        start_date: 2023-08-01
+        end_date: 2025-05-01
+        highlights:
+          - Assisted instruction and grading and led problem-solving sessions for Ordinary Differential Equations and Calculus II.
+
+      - company: Department of Mathematics, University of South Carolina
+        position: Undergraduate Research Assistant
+        location: Columbia, SC
+        start_date: 2023-02-01
+        end_date: 2024-05-01
+        summary: "GLIF modeling and simulation (Advisor: Dr. Yi Sun)."
+        highlights:
+          - Implemented a GLIF model bridging LIF and Hodgkin-Huxley dynamics for large-scale networks.
+          - Built a simulation pipeline for neuronal responses under variable noise and synaptic coupling; supported by the UREP Grant and Magellan Fellowship.
+
+      - company: Moving Image Research Collections, University of South Carolina
+        position: Machine Learning Intern
+        location: Columbia, SC
+        start_date: 2022-06-01
+        end_date: 2023-01-01
+        highlights:
+          - Benchmarked image-reconstruction models on NVIDIA GPU clusters, optimizing latency and throughput.
+          - Developed C++/OpenGL tooling for automated film restoration.
+
+      - company: Department of Technology, University of South Carolina
+        position: Software Engineering Intern
+        location: Columbia, SC
+        start_date: 2022-05-01
+        end_date: 2023-01-01
+        highlights:
+          - Integrated machine-learning image classifiers into an NSF-funded remote-sensing app for mosquito egg abundance.
+
+      - company: Artificial Intelligence Institute, University of South Carolina
+        position: Undergraduate Research Assistant
+        location: Columbia, SC
+        start_date: 2021-08-01
+        end_date: 2022-05-01
+        summary: "DRAX group (Dr. Forest Agostinelli)."
+        highlights:
+          - Applied tensor decomposition to PyTorch deep and reinforcement learning models to improve training efficiency in high-dimensional environments.
 
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
+      - title: "Phenomenological Models of PP1/PP2A Regulation in LTP Formation: A Dynamical Systems Analysis"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+          - Z. Abdulrahman
+          - D. McLaughlin
+        publisher: In preparation
+        summary: Working title. Manuscript in preparation.
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+    Awards:
+      - title: Magellan Research Fellowship
+        awarder: University of South Carolina
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+      - title: College of Arts and Sciences UREP Grant
+        awarder: University of South Carolina
+        summary: Computational neuroscience.
+
+      - title: First Place, Discovery Day Research Symposium
+        awarder: University of South Carolina
+
+      - title: Capstone Scholars Program
+        awarder: University of South Carolina
+
+      - title: Molinaroli Engineering Scholarship
+        awarder: University of South Carolina
+
+      - title: Dean's List and President's List
+        awarder: University of South Carolina
+        summary: Dean's List (8 semesters); President's List (5 semesters).
 
     Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: Numerical Methods
+        icon: fa-solid fa-square-root-variable
+        keywords: "Proximal and operator-splitting methods, accelerated first-order methods, numerical continuation and bifurcation analysis, ODE integration, matrix factorizations (SVD, least squares)"
 
-    Languages:
-      - name: German
-        summary: "Native speaker"
+      - name: Scientific Computing
+        icon: fa-solid fa-code
+        keywords: "Python (NumPy, SciPy, TensorFlow, PyTorch), MATLAB, C++"
 
-      - name: English
-        summary: "Fluent"
+      - name: Tools
+        icon: fa-solid fa-terminal
+        keywords: "Git, Linux/Unix, LaTeX, GPU clusters, AWS, Google Cloud"
 
     Interests:
-      - name: Physics
+      - name: Research Areas
         icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
-
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
-
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+        keywords: "Scientific Machine Learning, Optimization, Numerical Analysis, Dynamical Systems, Computational Neuroscience"
