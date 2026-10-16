@@ -27,7 +27,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am an applied mathematician working at the interface of **optimization**, **numerical analysis**, and **dynamical systems**. I am currently an M.S. student in the Applied Mathematics thesis track at NYU's Courant Institute, where my thesis is advised by [David McLaughlin](https://cims.nyu.edu/).
+I am an applied mathematician working at the interface of **optimization**, **numerical analysis**, and **dynamical systems**. I am currently an M.S. student in the Applied Mathematics thesis track at NYU's Courant Institute, where my thesis is advised by [David McLaughlin](https://math.nyu.edu/~dmac/).
 
 On the optimization side, I developed **ADRS-M**, an accelerated Douglas–Rachford splitting method for nonsmooth convex problems that uses a monotone residual restart to guarantee a nonincreasing fixed-point residual. As a visiting researcher in the Schaffer Lab at Mount Sinai, I study how **gradient clipping** shapes the training dynamics of recurrent neural networks, including transfer and task-feature learning.
 
@@ -35,4 +35,4 @@ My M.S. thesis develops phenomenological dynamical-systems models of PP1/PP2A re
 
 Together, these directions motivate my interest in **learning-based numerical methods** — particularly understanding neural operators through their approximation guarantees and optimization behavior, with applications to PDEs arising in biological systems.
 
-Before Courant, I completed a B.S. in Computer Science and Mathematics at the University of South Carolina, where I worked on generalized leaky integrate-and-fire network models with [Yi Sun](https://sc.edu/).
+Before Courant, I completed a B.S. in Computer Science and Mathematics at the University of South Carolina, where I worked on generalized leaky integrate-and-fire network models with [Yi Sun](https://people.math.sc.edu/yisun/index.html).
