@@ -6,7 +6,7 @@ subtitle: M.S. student in Applied Mathematics, <a href='https://cims.nyu.edu/'>C
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profile.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Courant Institute of Mathematical Sciences</p>
